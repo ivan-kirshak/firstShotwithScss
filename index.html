@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mockup with Scss</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="first-block">
+        <div class="container">
+            <header>
+                <div class="header-links" id="menu">
+                    <a href="#" class="black">Home</a>
+                    <a href="#aboutMe">About me</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contactMe">Contact me</a>
+                </div>
+            </header>
+            <hr>
+            <div class="intro-info">
+                <span id="mobBtn" class="mobileBtn"> ☰ </span>
+                <div class="intro-info__words">
+                    <h1 class="name">Denis <br> Novik</h1>
+
+                    <p class="age">UX | UI designer <br> 24 years old, Minsk</p>
+
+                    <p class="ru-eng" id="ruEng">
+                        <span class="ru">RU</span>
+                        <span class="eng">| ENG</span>
+                    </p>
+                </div>
+                <img src="media\portait-laptop.jpg" width="945px" alt="" srcset="media\portait-laptop.jpg 945w, 
+                    media\portrait-mobile.png 317w " sizes="(max-width: 375px) 317px">
+            </div>
+        </div>
+    </div>
+    <div class="second-block" id="aboutMe">
+        <div class="container">
+            <div class="second-block__info">
+                <h1>About Me</h1>
+
+                <p> Hi, I'm Denis – UX/UI designer from Minsk. <br> 
+                    I'm interested in design and everything connected with
+                    it. 
+                </p>
+
+                <p>I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
+
+                <p>Ready to implement excellent projects with wonderful people.</p>
+            </div>
+        </div>
+    </div>
+    <div class="third-block" id="skills">
+        <div class="container">
+            <div class="third-block__info">
+                <h1>Skills</h1>
+
+                <p>I work in such programs as</p>
+
+                <div class="third-block__info-programs">
+                    <div>
+                        <img src="media/ps.png" alt="Photoshop">
+                        <p>Adobe <br> Photoshop</p>
+                        <img src="media/fourstar.png" alt="four stars">
+                    </div>
+                    <div>
+                        <img src="media/ai.png" alt="Illustrator">
+                        <p>Adobe <br> Illustrator</p>
+                        <img src="media/threestar.png" alt="three stars">
+                    </div>
+                    <div>
+                        <img src="media/ae.png" alt="After Effects">
+                        <p>Adobe <br> After Effects</p>
+                        <img src="media/fourstar.png" alt="four stars">
+                    </div>
+                    <div>
+                        <img src="media/fig.png" alt="Figma">
+                        <p>Figma</p>
+                        <br>
+                        <img src="media/fourstar.png" alt="four stars">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="fourth-block" id="portfolio">
+        <div class="container">
+            <h1 class="portfolio-heading">Portfolio</h1>
+            <div class="portfolio-info">
+                <div class="portfolio-item">
+                    <img src="media/pone.png" alt="fashion store">
+                    <br>
+                    <a href="#">Online fashion store - Homepage</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="media/ptwo.png" alt="reebok store">
+                    <br>
+                    <a href="#">Reebok Store - Concept</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="media/pthree.png" alt="braun store">
+                    <br>
+                    <a href="#">Braun Landing Page - Concept</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fifth-block" id="contactMe">
+        <div class="container">
+            <h1 class="contacts">Contacts</h1>
+
+            <p>Want to know more or just chat? <br> You are welcome!</p>
+
+            <button type="button">Send message</button>
+
+            <div class="icons">
+                <img src="media/linkedin.svg" alt="linkedin">
+                <img src="media/insta.svg" alt="instagram">
+                <img src="media/behance.svg" alt="behance">
+                <img src="media/dribble.svg" alt="dribble">
+            </div>
+
+            <p class="final">Like me on <br> LinkedIn, Instagram, Behance, Dribble</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
